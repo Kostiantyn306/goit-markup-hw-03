@@ -27,28 +27,28 @@
   </head>
   <body class="body-list portfolio">
     <!-- Шапка -->
-    <header class="header-list section">
+    <header class="header">
       <div class="container header-container">
-        <nav class="nav">
-          <a class="link logo" href="./index.html"><span class="web">Web</span>Studio</a>
+          <nav class="nav">
+          <div  class="link logo"><a" href="./index.html"><span class="web">Web</span>Studio</a></div>
           <ul class="list link-navig">
             <li>
-              <a class="link nav-link" href="./index.html">Студія</a>
+              <a class="link active nav-link" href="./index.html">Студія</a>
             </li>
             <li>
-              <a class="link nav-link active" href="./portfolio.html">Портфоліо</a>
+              <a class="link nav-link" href="./portfolio.html">Портфоліо</a>
             </li>
             <li><a class="link nav-link" href="">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="list contact-list">
-          <li>
-            <a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a class="link contact" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
+          <ul class="list contact-list">
+            <li>
+              <a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+              <a class="link contact" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>   
       </div>
     </header>
 
@@ -56,27 +56,27 @@
 
     <main>
       <!-- Кнопки -->
-      <section>
-        <h1 class="visually-hidden">Приклади наших проєктів</h1>
-        <ul class="list nvg-list">
-          <li>
-            <button type="button" class="link btn active">Усі</button>
-          </li>
-          <li>
-            <button type="button" class="link btn">Веб-сайти</button>
-          </li>
-          <li>
-            <button type="button" class="link btn">Додатки</button>
-          </li>
-          <li>
-            <button type="button" class="link btn">Дизайн</button>
-          </li>
-          <li>
-            <button type="button" class="link btn">Маркетинг</button>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <h1 class="visually-hidden">Приклади наших проєктів</h1>
+          <ul class="list nvg-list">
+            <li>
+              <button type="button" class="link btn active-btn">Усі</button>
+            </li>
+            <li>
+              <button type="button" class="link btn">Веб-сайти</button>
+            </li>
+            <li>
+              <button type="button" class="link btn">Додатки</button>
+            </li>
+            <li>
+              <button type="button" class="link btn">Дизайн</button>
+            </li>
+            <li>
+              <button type="button" class="link btn">Маркетинг</button>
+            </li>
+          </ul>
 
-        <div class="container section">
           <!-- Герой -->
 
           <ul class="list portfolio-list">
@@ -117,7 +117,7 @@
             </li>
             <li class="portfolio-item">
               <img src="./imeges/portfolio/project-6.jpg" alt="Проєкт 6" width="370" height="294" />
-              <div class="content-pr">
+              <div class="content-wrapp-pr">
                 <h2 class="project-title">Inspiration has no Borders</h2>
                 <p class="project-text">Веб-сайт</p>
               </div>
@@ -150,19 +150,21 @@
 
     <!-- Підвал -->
 
-    <footer class="footer-list">
+  <footer class="footer">
+    <div class="container">
       <a class="link logo-footer" href="./index.html"><span class="web">Web</span>Studio</a>
       <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
       <div class="footer-list-contact contact">
-        <ul class="list">
-          <li>
-            <a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a class="link contact" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
+      <ul class="list">
+        <li class="cont">
+          <a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="cont">
+          <a class="link contact" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
       </div>
+    </div>
     </footer>
   </body>
 </html>
