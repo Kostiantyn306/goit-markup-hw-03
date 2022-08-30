@@ -7,10 +7,9 @@
   --white-color: #ffffff;
 }
 /* index.html */
-body
- {
+body {
   letter-spacing: 0.03em;
-  background-color: var(--white-color)
+  background-color: var(--white-color);
   color: var(--basic-text);
   font-family: 'Roboto';
   font-size: 14px;
@@ -232,7 +231,6 @@ address {
 }
 .comand-list {
   background-color: #f5f4fa;
-
 }
 
 .section-title {
@@ -247,7 +245,7 @@ address {
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
-   margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .comand-title {
@@ -285,7 +283,6 @@ address {
   line-height: 1.9;
   text-align: center;
   color: var(--minor-text);
- 
 }
 
 /* portfolio */
@@ -355,10 +352,10 @@ address {
   gap: 30px;
 }
 .portfolio-item {
-  width::calc((100% - 60px / 3));
+  width: calc((100% - 60px) / 3);
 }
 
-.project-title { 
+.project-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -375,7 +372,7 @@ address {
 /* footer */
 .footer {
   background-color: var(--fone-color);
-  padding:30px;
+  padding: 30px;
 }
 .logo-footer {
   font-family: 'Raleway';
@@ -402,10 +399,10 @@ address {
 /* .cont {
 
 } */
-.footer-list{
+.footer-list {
   display: flex;
   flex-direction: column;
   gap: 9px;
-    line-height: 1.7;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
