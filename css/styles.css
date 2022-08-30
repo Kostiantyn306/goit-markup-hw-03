@@ -7,9 +7,10 @@
   --white-color: #ffffff;
 }
 /* index.html */
-body {
+body
+ {
   letter-spacing: 0.03em;
-  background-color: var(--background-main);
+  background-color: var(--white-color)
   color: var(--basic-text);
   font-family: 'Roboto';
   font-size: 14px;
@@ -117,6 +118,15 @@ address {
   gap: 50px;
   margin-left: auto;
 }
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
 .list {
   list-style: none;
 }
@@ -171,14 +181,10 @@ address {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin: 0;
   margin: auto;
   color: var(--white-color);
 
   margin-bottom: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   width: 696px;
 }
 .visually-hidden {
@@ -217,6 +223,7 @@ address {
   font-size: 14px;
 }
 .list-meta {
+  padding-top: 0;
   padding-bottom: 0;
 }
 .list-meta-title {
@@ -225,7 +232,7 @@ address {
 }
 .comand-list {
   background-color: #f5f4fa;
-  display: flex;
+
 }
 
 .section-title {
@@ -240,6 +247,7 @@ address {
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
+   margin-bottom: 10px;
 }
 
 .comand-title {
@@ -270,7 +278,6 @@ address {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  width: 368px;
 }
 
 .team-position {
@@ -278,7 +285,7 @@ address {
   line-height: 1.9;
   text-align: center;
   color: var(--minor-text);
-  margin-bottom: 10px;
+ 
 }
 
 /* portfolio */
@@ -348,15 +355,14 @@ address {
   gap: 30px;
 }
 .portfolio-item {
-  flex-basis: calc(100% - 30px * 2) / 3;
+  width::calc((100% - 60px / 3));
 }
 
-.project-title {
-  width: 370px;
+.project-title { 
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 4px 0;
+  margin-bottom: 4px;
 }
 .project-text {
   font-weight: 400;
@@ -369,6 +375,7 @@ address {
 /* footer */
 .footer {
   background-color: var(--fone-color);
+  padding:30px;
 }
 .logo-footer {
   font-family: 'Raleway';
@@ -380,21 +387,25 @@ address {
 
   display: block;
   margin-bottom: 20px;
-  padding-top: 60px;
 }
 .address {
   font-size: 14px;
   line-height: 1.7;
   color: #ffffff;
   margin-bottom: 9px;
-  display: flex;
 }
-.footer-list-contact {
-  display: flex;
+/* .footer-list-contact {
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
   gap: 9px;
-}
-.cont {
-  margin: 9px 0;
+} */
+/* .cont {
+
+} */
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+    line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
 }
