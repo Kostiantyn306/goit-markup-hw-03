@@ -202,28 +202,27 @@ address {
 .benefits {
   align-items: baseline;
   justify-content: center;
-  gap: 30px;
   width: auto;
 }
 .benefits-lists {
   display: flex;
+  gap: 30px;
+}
+.benefits-items {
+  width: 270px;
 }
 .benefits-title {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--basic-text);
-  font-size: 14px;
   padding-bottom: 10px;
 }
 .benefits-list {
-  font-weight: 400;
   line-height: 1.71;
   color: var(--minor-text);
-  font-size: 14px;
 }
 .list-meta {
   padding-top: 0;
-  padding-bottom: 0;
 }
 .list-meta-title {
   display: flex;
@@ -372,7 +371,7 @@ address {
 /* footer */
 .footer {
   background-color: var(--fone-color);
-  padding: 30px;
+  padding: 60px 0;
 }
 .logo-footer {
   font-family: 'Raleway';
